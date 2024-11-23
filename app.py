@@ -33,7 +33,7 @@ def get_events():
 
 
     return app.response_class(
-        response = json.dumps(data, ensire_ascii = False),
+        response = json.dumps(data, ensure_ascii = False),
         mimetype = 'application/json' 
     )
 
